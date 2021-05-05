@@ -1,4 +1,6 @@
 import domain.Dog;
+import domain.Inheritance.Child;
+import domain.Inheritance.Father;
 import domain.InterfaceAnimal;
 import domain.Penguin;
 
@@ -8,16 +10,21 @@ public class Main {
 
     public static void main(String[] args) {
 
-        InterfaceAnimal ia = new Dog("Barks","Malamut",true, 20,"Alaska"),
-                       ia2 = new Penguin("Peng","Adelie",true,"Antarctica");
-        //call the methods
-        ia.speak();
-        ia2.speak();
-        System.out.println("Can the Dog fly? " +  ia.canFly());
-        System.out.println("Can the penguin fly? " + ia2.canFly());
+        //Dog ia = new Dog("Barks","Malamut",true, 20,"Alaska");
 
-        System.out.println(ia);
-        System.out.println(ia2);
+//        Penguin ia2 = new Penguin("Peng","Adelie",true,"Antarctica");
+//
+//        System.out.println("The object before using setEverything");
+//        System.out.println(ia2);
+//        System.out.println("The sound AFTER using setEverything");
+//        ia2.setEverything(false,"Sample.mp4","Transilvania","Emperor");
+//        System.out.println(ia2);
+//        System.out.println("Prints only the race of the dog" + ia2.getRace());
+
+
+        Child c = new Child(175,"John Sohn");
+        //c.name = "Now I changed the name because the modifier was public"
+        System.out.println(c);
 
 
     }

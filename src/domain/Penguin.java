@@ -13,6 +13,35 @@ public class Penguin implements InterfaceAnimal{
         this.habitat = habitat;
     }
 
+    /**
+     *
+     * @param sound - new value for the sound of the animal
+     */
+    public void setSound(String sound) {
+        this.sound = sound;
+    }
+
+    public void setRace(String race) {
+        this.race = race;
+    }
+
+    public void setTrained(boolean trained) {
+        isTrained = trained;
+    }
+
+
+
+    public void setEverything(boolean trained, String _sound, String _habitat, String _race){
+        this.isTrained = trained;
+        this.sound = _sound;
+        this.habitat = _habitat;
+        this.race = _race;
+    }
+
+    public void setHabitat(String habitat) {
+        this.habitat = habitat;
+    }
+
     @Override
     public String toString() {
         return "Penguin{" +
