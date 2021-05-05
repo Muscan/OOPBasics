@@ -11,5 +11,5 @@ public class DogTests {
         Dog ia = new Dog("Barks","Malamut",true, 20,"Alaska");
         assert(ia.getRace().equals("Malamut"));
 
-    }
+
 }
