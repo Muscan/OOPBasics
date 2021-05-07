@@ -20,6 +20,12 @@ public class DogTests {
     @Test
     public void getMaxAge_DogExists_lowerThan20_True(){
         Dog ia = new Dog("Hau", "Husky", false, 14,"Siberia");
-        assert (ia.maxAge() != 20);
+        assert (ia.maxAge() <= 20);
+    }
+    @Test
+    public void getHabitat_DogExists_isSiberia(){
+        Dog ia = new Dog("Hau", "Husky", false, 14,"Siberia");
+        assert  (ia.getHabitat().equals("Siberia"));
+
     }
 }
