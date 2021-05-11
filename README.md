@@ -1,6 +1,6 @@
 # OOPBasics
 Exercising my OOP Skills
-This Project contains mainly the basics of the OOP. 
+This Project contains mainly the basics of the OOP:
 Java Classes
 Java OOP
 Java Classes/Objects
