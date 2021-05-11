@@ -56,9 +56,6 @@ public class Dog implements InterfaceAnimal{
         return this.race;
     }
 
-    @Override
-    public void emptyMethod() {
-    }
 
     @Override
     public boolean canFly() {

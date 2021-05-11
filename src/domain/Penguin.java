@@ -30,6 +30,7 @@ public class Penguin implements InterfaceAnimal{
     }
 
 
+    public String getSound(){ return this.sound;}
 
     public void setEverything(boolean trained, String _sound, String _habitat, String _race){
         this.isTrained = trained;
@@ -63,10 +64,6 @@ public class Penguin implements InterfaceAnimal{
     }
 
     @Override
-    public void emptyMethod() {
-    }
-
-    @Override
     public boolean canFly() {
         return true;
     }
@@ -78,7 +75,7 @@ public class Penguin implements InterfaceAnimal{
 
     @Override
     public int maxAge() {
-        return 0;
+        return 9;
     }
 
     @Override

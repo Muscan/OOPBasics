@@ -28,4 +28,5 @@ public class DogTests {
         assert  (ia.getHabitat().equals("Siberia"));
 
     }
+
 }

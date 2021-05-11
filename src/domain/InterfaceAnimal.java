@@ -1,11 +1,8 @@
 package domain;
 
-
-
 public interface InterfaceAnimal {
     void speak();
     String getRace();
-    void emptyMethod();
     boolean canFly();
     boolean isTrained();
     int maxAge();

@@ -22,10 +22,47 @@ public class Main {
 //        System.out.println("Prints only the race of the dog" + ia2.getRace());
 
 
-        Child c = new Child(175,"John Sohn");
+        //Child c = new Child(175,"John Sohn");
         //c.name = "Now I changed the name because the modifier was public"
-        System.out.println(c);
+        //System.out.println(c);
+
+        InterfaceAnimal d = new Dog("","",true,1,""), pe = new Penguin("Tzic", "Brandenbyro", false, "Zoo Munich");
+        ArrayList<InterfaceAnimal> listDeAnimale = new ArrayList<>();
+        listDeAnimale.add(d);
+        listDeAnimale.add(pe);
+        for (int i = 0; i < listDeAnimale.size(); i++) {
+            System.out.println(listDeAnimale.get(i));
+        }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        ArrayList<Integer> a;
     }
 }
