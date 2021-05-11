@@ -26,6 +26,7 @@ public class Main {
         //c.name = "Now I changed the name because the modifier was public"
         //System.out.println(c);
 
+        //simple Abstraction example
         InterfaceAnimal d = new Dog("","",true,1,""), pe = new Penguin("Tzic", "Brandenbyro", false, "Zoo Munich");
         ArrayList<InterfaceAnimal> listDeAnimale = new ArrayList<>();
         listDeAnimale.add(d);
